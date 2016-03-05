@@ -91,7 +91,7 @@
 		<paper-drawer-panel>
 		    <paper-header-panel drawer>
 		        <paper-toolbar>
-		            <paper-item>Side Bar Title</paper-item>
+		            <paper-item>Side Bar</paper-item>
 		        </paper-toolbar>
 
 						<paper-menu class="list">
@@ -109,7 +109,7 @@
 		    </paper-header-panel>
 		    <paper-header-panel main>
 		        <paper-toolbar>
-		            <paper-item>Main Body Title</paper-item>
+		            <paper-item>Polymer Paper Design ToDo!</paper-item>
 		        </paper-toolbar>
 
 						<div style="border-left: 1px solid #ccc;">
@@ -136,7 +136,7 @@
 
     <core-pubnub 
         publish_key="" 
-        subscribe_key=""> <!-- took keys out -->
+        subscribe_key="">
         <core-pubnub-publish id="pub" channel="todo" message="Test"> </core-pubnub-publish>
         <core-pubnub-subscribe id="sub" channel="todo" messages="{{messages}}" presence="{{present}}" on-callback="subscribeCallback"></core-pubnub-subscribe>  
     </core-pubnub>
