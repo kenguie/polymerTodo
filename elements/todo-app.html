@@ -136,7 +136,7 @@
 
     <core-pubnub 
         publish_key="" 
-        subscribe_key="">
+        subscribe_key=""> <!-- took keys out -->
         <core-pubnub-publish id="pub" channel="todo" message="Test"> </core-pubnub-publish>
         <core-pubnub-subscribe id="sub" channel="todo" messages="{{messages}}" presence="{{present}}" on-callback="subscribeCallback"></core-pubnub-subscribe>  
     </core-pubnub>
